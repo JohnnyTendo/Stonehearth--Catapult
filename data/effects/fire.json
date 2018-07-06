@@ -1,0 +1,24 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "animation": {
+         "type": "animation_effect",
+         "start_time": 0,
+         "animation": "fire.json",
+         "loop": false
+      },
+      "bolt_ammunition" : {
+         "type": "attach_item_effect",
+         "start_time": 48,
+         "end_time": 68,
+         "item": "catapult:consumable:weapons:catapult_ammunition",
+         "bone": "bolt5"
+      },
+      "hide_bolt" : {
+         "type": "hide_bone",
+         "start_time": 69,
+         "end_time": 90,
+         "bone": "bolt5"
+      }
+   }
+}

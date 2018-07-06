@@ -1,0 +1,20 @@
+{
+   "entities": {
+      "turrets": {
+         "catapult": {
+            "display_name" : "Catapult",
+            "description" : "A Heavy and longed ranged Catapult with slow but powerfull shots"
+         }
+      },
+      "consumable": {
+         "catapult_ammunition": {
+            "catapult_ammunition": {
+               "display_name" : "Catapult Ammunition 3X",
+               "description" : "Heavy Catapult Ammunition, used in Catapults",
+               "shot_description" : "Take this!",
+               "shot_name" : "Catapult Ammunition"
+            }
+         }
+      }
+   }
+}
