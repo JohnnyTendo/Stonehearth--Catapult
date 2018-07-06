@@ -1,0 +1,33 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "scale": 0.05,
+         "animation_table": "file(/data/catapult_turret/catapult.json)"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(catapult_turret.qb)"
+            ]
+         }
+      },
+      "effect_list": {
+         "default": "file(/data/catapult_turret/animations/ghost_idle.json)"
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(catapult:entities.turrets.catapult.display_name)",
+         "description": "i18n(catapult:entities.turrets.catapult.description)",
+         "icon": "file(catapult_turret.png)",
+         "category": "defense",
+         "material_tags": "wood defense stockpile_defense"
+      }
+   }
+}

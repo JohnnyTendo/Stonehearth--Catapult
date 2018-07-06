@@ -6,9 +6,9 @@
     },
     "default_locale": "en",
     "aliases": {
-        "catapult": "file(turrets/catapult_turret/catapult_turret.json)",
-        "turret:catapult_turret:weapon"  : "file(turrets/catapult_turret/catapult_turret_weapon.json)",
-        "weapons:catapult_ammunition": "file(turrets/weapons/catapult_ammunition/catapult_ammunition.json)",
-        "consumable:catapult_ammunition": "file(turrets/consumable/catapult_ammunition/catapult_ammunition.json)"
+        "catapult": "file(entities/turrets/catapult_turret/catapult_turret/catapult_turret.json)",
+        "turret:catapult_turret:weapon"  : "file(entities/turrets/catapult_turret/catapult_turret/catapult_turret_weapon.json)",
+        "weapons:catapult_ammunition": "file(entities/turrets/catapult_turret/weapons/catapult_ammunition/catapult_ammunition.json)",
+        "consumable:catapult_ammunition": "file(entities/turrets/catapult_turret/consumable/catapult_ammunition/catapult_ammunition.json)"
     }
 }
