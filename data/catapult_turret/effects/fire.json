@@ -17,7 +17,7 @@
       "hide_ammunition" : {
          "type": "hide_bone",
          "start_time": 31,
-         "end_time": 40,
+         "end_time": 50,
          "bone": "bolt5"
       }
    }
